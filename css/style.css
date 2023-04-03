@@ -1,0 +1,176 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+input {
+    border: black solid 0.1rem;
+    margin-top: 1rem;
+}
+
+
+
+/* INDEX PRINCIPAL */
+#sectionIndexPrincipal {
+    border: lightblue solid 0.15rem;
+    width: 50%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerIndexPrincipal {
+    padding-bottom: 1rem;
+}
+
+#buttonsolicitar {
+    width: 10rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(124, 224, 24);
+    border: black solid 0.1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+#buttonpagar {
+    width: 10rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(221, 45, 45);
+    border: black solid 0.1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+
+/* SECOND INDEX */
+
+#sectionSecondIndex {
+    border: lightblue solid 0.15rem;
+    width: 50%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.objectsSecondIndex {
+    margin-left: 13rem;
+}
+
+#buttonSubmitSolicitar {
+    width: 10rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(124, 224, 24);
+}
+
+
+/* PAGAR.PHP */
+
+#sectionPagar {
+    border: lightblue solid 0.15rem;
+    width: 50%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.objectsPagar {
+    margin-left: 13.5rem;
+}
+
+#buttonSubmitPagar {
+    width: 5rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(221, 45, 45);
+}
+
+
+/* CHOICES.PHP */
+
+#sectionChoices {
+    border: lightblue solid 0.15rem;
+    width: 50%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainChoices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#buttonsChoices {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonSolicitarChoices {
+    width: 10rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(124, 224, 24);
+    border: black solid 0.1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+#buttonPagarChoices {
+    width: 10rem;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(221, 45, 45);
+    border: black solid 0.1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* DATOS.PHP */
+
+#sectionDatos {
+    border: lightblue solid 0.15rem;
+    width: 30%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pmontofinal {
+    margin-top: 0.7rem;
+    font-size: 1.3rem;
+    color: red;
+}
